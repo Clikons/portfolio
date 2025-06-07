@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bautista - Portafolio Web</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Estilos extra para la galería anime */
+    .galeria-anime {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .galeria-anime img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .galeria-anime img:hover {
+      transform: scale(1.1);
+    }
+    .contacto-anime {
+      margin-top: 15px;
+      text-align: center;
+    }
+    .contacto-anime a {
+      margin: 0 10px;
+      color: #0077cc;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .contacto-anime a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bautista - Desarrollador Web</h1>
+    <nav>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#anime">Galería Anime</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy un desarrollador web apasionado por crear sitios atractivos y funcionales. Me especializo en tecnologías front-end y back-end.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <h3>Proyecto 1: Mi blog personal</h3>
+      <p>Descripción breve del proyecto, tecnologías usadas y enlace si está online.</p>
+    </div>
+    <div class="proyecto">
+      <h3>Proyecto 2: Tienda online simple</h3>
+      <p>Descripción breve, tecnologías y enlace.</p>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Diseño y desarrollo web personalizado</li>
+      <li>Optimización SEO básica</li>
+      <li>Mantenimiento y actualizaciones</li>
+    </ul>
+  </section>
+
+  <!-- Nueva sección: Galería anime -->
+  <section id="anime">
+    <h2>Galería de dibujos estilo Anime</h2>
+    <div class="galeria-anime">
+      <!-- Aquí pones las imágenes que tu clienta te dio -->
+      <img src="imagenes/dibujo1.jpg" alt="Dibujo anime 1" />
+      <img src="imagenes/dibujo2.jpg" alt="Dibujo anime 2" />
+      <img src="imagenes/dibujo3.jpg" alt="Dibujo anime 3" />
+      <!-- Añade más imágenes según tengas -->
+    </div>
+    <div class="contacto-anime">
+      <p>Contacta para encargos o consultas:</p>
+      <a href="https://wa.me/1234567890" target="_blank" rel="noopener">WhatsApp</a> |
+      <a href="https://instagram.com/usuarioanime" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Escríbeme a: <a href="mailto:bautista@example.com">bautista@example.com</a></p>
+    <p>O sígueme en redes:</p>
+    <ul>
+      <li><a href="https://instagram.com/tuusuario" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://wa.me/tu_numero" target="_blank" rel="noopener">WhatsApp</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Bautista. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
